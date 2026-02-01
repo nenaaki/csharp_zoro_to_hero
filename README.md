@@ -14,22 +14,31 @@ C# の基礎を、最短ルートで身につけるための学習リポジト�
 この教材では、以下のステップで学習を進めます。
 
 ```mermaid
-graph LR
-    A[01. 基礎] --> B[02. 制御構造]
-    B --> C[03. メソッド]
-    C --> D[04. オブジェクト指向]
-    D --> E[05. 実践アプリ]
-    style A fill:#4169e1,stroke:#fff,color:#fff
-    style E fill:#2e8b57,stroke:#fff,color:#fff
+flowchart LR
+  A[01. 基礎] --> B[02. 環境構築]
+  B --> B1[.NET SDK / CLI]
+  B --> B2[IDE: Visual Studio / VS Code / Codespaces]
+  B1 --> C[03. データアクセス]
+  C --> C1[Entity Framework Core]
+  C1 --> C2[Migrations & DbContext]
+  C --> D[04. Webアプリ]
+  D --> D1[Blazor: Server / WebAssembly]
+  D1 --> E[05. 実践アプリ]
+  E --> F[06. デプロイ]
+  style A fill:#4169e1,stroke:#fff,color:#fff
+  style F fill:#2e8b57,stroke:#fff,color:#fff
 ```
 
 ## 📚 目次 (Contents)
 
 | 章 | タイトル | 内容 | ステータス |
 | :--- | :--- | :--- | :---: |
-| **Section 1** | [イントロダクション](./docs/01_intro.md) | 環境構築・Hello World の表示 | ✅ |
-| **Section 2** | [C#の基本文法](./docs/02_basics.md) | 変数・型・演算子の使い方 | ✅ |
-| **Section 3** | [制御構造](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | ✅ |
+| **Section 1** | [イントロダクション](./docs/01_intro.md) | 最初の環境構築・Hello World の表示 | ✅ |
+| **環境構築** | [.NET 環境セットアップ](./docs/02_setup.md) | .NET SDK の導入と確認手順 | ✅ |
+| **データアクセス** | [Entity Framework 入門](./docs/03_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
+| **Web アプリ** | [Blazor 入門](./docs/04_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
+| **Section 2** | [C#の基本文法](./docs/02_basics.md) | 変数・型・演算子の使い方 | 🚧 |
+| **Section 3** | [制御構造](./docs/03_control.md) | 条件分岐(if)と繰り返し(for/while) | 🚧 |
 | **Section 4** | [配列とリスト](./docs/04_collections.md) | データの集合を扱う (List<T>) | 🚧 |
 | **Section 5** | [オブジェクト指向](./docs/05_oop.md) | クラス・継承・カプセル化 | 📅 |
 | **Section 6** | [実践演習](./docs/06_practice.md) | コンソールアプリの作成 | 📅 |
