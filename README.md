@@ -64,3 +64,7 @@ flowchart LR
 ---
 
 © 2026 Reki Yamamoto - Distributed under the MIT License.
+
+## 付録
+
+- **.NET と C# 言語バージョン対応表:** [docs/05_dotnet_csharp_versions.md](docs/05_dotnet_csharp_versions.md#L1)
