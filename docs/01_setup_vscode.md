@@ -8,12 +8,12 @@
 
 ## 推奨拡張機能
 - C# (`ms-dotnettools.csharp`)
-- C# Dev Kit（任意、Microsoft 製）
+- C# Dev Kit（Microsoft 製）
 - NuGet Package Manager（任意、パッケージ管理）
 
 ## 手順
 1. VS Code をインストール: https://code.visualstudio.com/
-2. .NET SDK をインストール（`docs/02_setup.md` の手順を参照）。
+2. .NET SDK をインストール: https://dotnet.microsoft.com/ja-jp/download
 3. VS Code を起動して、拡張機能ビューから上記の拡張をインストール。
 4. プロジェクトのルートフォルダを `File > Open Folder` で開く。
 5. ターミナルで `dotnet restore` を実行して依存関係を復元。
