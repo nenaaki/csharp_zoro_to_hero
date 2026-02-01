@@ -1,6 +1,6 @@
 # 🚀 C# Zero to Hero: 基礎から学ぶ実践プログラミング
 
-[![GitHub license](https://img.shields.io/github/license/YOUR_GITHUB_ID/csharp-learning-repo)](https://github.com/YOUR_GITHUB_ID/csharp-learning-repo)
+[![GitHub license](https://img.shields.io/github/license/nenaaki/csharp_zoro_to_hero)](https://github.com/nenaaki/csharp_zoro_to_hero)
 [![C# version](https://img.shields.io/badge/C%23-12.0-blue)](https://dotnet.microsoft.com/download)
 [![.NET version](https://img.shields.io/badge/.NET-8.0-purple)](https://dotnet.microsoft.com/download)
 
