@@ -15,16 +15,8 @@ C# の基礎を、最短ルートで身につけるための学習リポジト�
 
 ```mermaid
 flowchart LR
-  A[01. 基礎] --> B[02. 環境構築]
-  B --> B1[.NET SDK / CLI]
-  B --> B2[IDE: Visual Studio / VS Code / Codespaces]
-  B1 --> C[03. データアクセス]
-  C --> C1[Entity Framework Core]
-  C1 --> C2[Migrations & DbContext]
-  C --> D[04. Webアプリ]
-  D --> D1[Blazor: Server / WebAssembly]
-  D1 --> E[05. 実践アプリ]
-  E --> F[06. デプロイ]
+  A[1. イントロダクション] --> B[1.1. 環境構築]
+  B --> C[2. C#の基礎文法]
   style A fill:#4169e1,stroke:#fff,color:#fff
   style F fill:#2e8b57,stroke:#fff,color:#fff
 ```
