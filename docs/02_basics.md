@@ -30,8 +30,8 @@ readonly DateTime created = DateTime.UtcNow; // フィールドで使用
 
 - 整数系: `byte`, `short`, `int`, `long`
 - 浮動小数点: `float`, `double`, `decimal` (金融計算に向く)
-- 文字・文字列: `char`, `string`
-- 論理: `bool`
+- 文字・文字列: `char`, `string`（UTF-16として扱う）
+- 論理: `bool`（true または false）
 - 任意型: `object` (すべての型の基底)
 - Nullable 型: `int?` や `DateTime?` — 値が null になり得る型
 
@@ -42,6 +42,10 @@ int? maybe = null;
 double price = 12.5;
 char c = 'A';
 ```
+
+> [!TIP]
+> 💡 C# の文字コード事情 C# の文字列は内部で UTF-16 という形式で管理されています。 ほとんどの文字は 1文字 2バイトで処理されますが、最近の絵文字などは「2文字分（4バイト）」のメモリを使う「サロゲートペア」として扱われることがあります。 string.Length を取ったときに、見た目の文字数と一致しないことがあるのはこのためです。
+
 
 ## 配列とコレクション
 
