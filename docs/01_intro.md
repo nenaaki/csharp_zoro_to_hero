@@ -83,12 +83,17 @@ namespace MyApp
 
 この書き方は古い C# のコードベースでよく見られますが、動作や実行方法（`dotnet run`）はトップレベルステートメントの例と同じです。
 
+> 注意：古いフレームワークを使うプロジェクトではこちらの書き方となります。
+
+
 ### 実行の手順
 + ターミナル（画面下の領域）を開きます。
 + 以下のコマンドを入力して実行します。
 
 ```bash
-cd src/01_intro
+# ターミナルのフォルダーが /workspaces/csharp_zoro_to_hero (main) $ の場合
+cd exercises/01_intro
+# 実行
 dotnet run
 ```
 
