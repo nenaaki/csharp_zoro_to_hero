@@ -39,6 +39,16 @@ flowchart LR
 1. リポジトリを Fork する
 右上の [Fork] ボタンを押し、自分のアカウントにこの教材をコピーしてください。
 
+> **Fork した方へ（重要）:** 元リポジトリの更新を取り込むため、定期的にフォークを同期（Sync fork）してください。ローカルで同期する簡単な手順の例:
+
+```
+git remote add upstream https://github.com/nenaaki/csharp_zoro_to_hero.git
+git fetch upstream
+git merge upstream/main
+```
+
+または GitHub のウェブ UI にある「 **Sync fork** 」機能を使って更新を取り込んでください。（推奨）
+
 2. 学習環境を立ち上げる
 このリポジトリは GitHub Codespaces に対応しています。
 
