@@ -19,6 +19,7 @@ flowchart LR
   S1 --> S2[2. C#の基本文法]
   S2 --> S3[3. 制御構文]
   S2 --> S4[4. 配列とリスト]
+  S4 --> S7[7. LINQ]
   S2 --> S5[5. オブジェクト指向]
   S5 --> S51[5.1. インターフェース]
   S2 --> S6[6. 標準入出力]
@@ -41,6 +42,7 @@ flowchart LR
 | **6** | [標準入出力](./docs/06_console.md) | コンソールアプリの作成 | ✅ |
 | **6.1** | [ストリーム](./docs/06_streams.md) | ファイルなどの読み書き | ✅ |
 | **6.2** | [エンコーディング](./docs/06_encoding.md) | 文字列のエンコードを切り替える | ✅ |
+| **7** | [LINQ](./docs/07_linq.md) | LINQを使う | ✅ |
 | **データアクセス** | [Entity Framework 入門](./docs/08_entity_framework.md) | EF Core の導入とマイグレーション | 🚧 |
 | **Web アプリ** | [Blazor 入門](./docs/09_blazor.md) | Blazor Server / WASM の基本 | 🚧 |
 
