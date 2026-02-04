@@ -26,7 +26,9 @@ flowchart LR
   S6 --> S61[6.1. ストリーム]
   S61 --> S62[6.2. エンコーディング]
   P0[プログラミング基礎] --> P1[分解]
+  P1 --> P2[抽象化とパターン認識]
   style S1 fill:#4169e1,stroke:#fff,color:#fff
+  style P0 fill:#4169e1,stroke:#fff,color:#fff
 ```
 
 ## 📚 目次 (Contents)
@@ -52,7 +54,8 @@ flowchart LR
 
 | 章 | タイトル | 内容 | ステータス |
 | :--- | :--- | :--- | :---: |
-| **1** | [分解](./docs/p_01_decomposition.md) | プログラミング基礎「分解」 | 🚧 |
+| **1** | [分解](./docs/p_01_decomposition.md) | プログラミングにおける分解（デコンポジション） | 🚧 |
+| **2** | [抽象化](./docs/p_02_abstraction.md) | 抽象化とパターン認識 | 🚧 |
 
 ## 🛠️ この教材の進め方
 
